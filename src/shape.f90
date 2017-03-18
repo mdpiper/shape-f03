@@ -8,7 +8,7 @@ module shape_def
   abstract interface
 
      ! Calculate the area of the shape.
-     function calc_area(self)
+     real function calc_area(self)
        import :: shape
        class (shape) :: self
      end function calc_area
