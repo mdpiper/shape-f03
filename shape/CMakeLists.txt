@@ -1,6 +1,4 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(pkg_name shape)
-set(src_${pkg_name} shape.f90)
-
-add_library(${pkg_name} SHARED ${src_${pkg_name}})
+set(src_${abstract_name} shape.f90)
+add_library(${abstract_name} SHARED ${src_${abstract_name}})
