@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+# Concrete class
 
 set(src_${concrete_name} circle.f90 main.f90)
 
