@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 2.8)
 
 set(pkg_name shape)
 set(src_${pkg_name} shape.f90)
